@@ -4,10 +4,10 @@
 
 #include "bayleaf.dtsi"
 
-// &default_transform {
+&default_transform {
     // Set this to the number of columns on the left side.
-    // col-offset = <6>;
-// };
+    col-offset = <6>;
+};
 
 &kscan {
     // Replace these comments with the GPIO pins in the matrix for the right side.
